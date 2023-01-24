@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me | Kenyata Walls</title>
+    <meta
+      name="description"
+      content="Information about Kenyata Walls work history, projects and demographics"
+    />
+    <title>About Kenyata Walls</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,6 +34,27 @@
   </head>
   <body>
     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="/Images/kw-logo.png" alt="Personal Logo" class="logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Kenyata Walls"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Kenyata's Work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Kenyata"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
       <div class="content-container">
         <div class="row">
           <div class="col-lg-6">
@@ -42,7 +67,7 @@
                 exercises, and everything is well explained, homework and
                 deadlines are good for keeping focus.
               </p>
-              <a href="" class="btn btn-branding">See my projects</a>
+              <a href="/work.html" class="btn btn-branding">See my projects</a>
             </div>
           </div>
           <div class="col-lg-6">
@@ -54,6 +79,60 @@
           </div>
         </div>
       </div>
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Kenyata"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="mb-5">
+          <a
+            href="mailto:wallskenyata@gmail.com"
+            class="email-link"
+            title="Email kenyata"
+            >wallskenyata@gmail.com</a
+          >
+        </div>
+        <div class="social-links mb- 5">
+          <a
+            href="https://tiktok.com/@kenyamilan_"
+            target="_blank"
+            target="Tiktok Profile"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+          <a
+            href="https://instagram.com/iamkenyam_"
+            target="_blank"
+            target="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/beautyncode"
+            target="_blank"
+            target="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This Project was coded by Kenyata Walls, and it is
+          <a
+            href="https://github.com/beautyncode/portfolio-project"
+            target="_blank"
+            >open sourced.</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
